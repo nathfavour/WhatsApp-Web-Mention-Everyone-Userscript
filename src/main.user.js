@@ -39,6 +39,8 @@ function sleep(ms) {
 
       // TODO: Delete the last 2 written characters (the "@@")
 
+      // TODO: Or delete only one instead
+
       try {
         await tagEveryone()
       } catch (error) {
